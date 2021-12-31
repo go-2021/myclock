@@ -11,7 +11,7 @@
 ///      fonts:
 ///       - asset: fonts/WeatherIcons.ttf
 ///
-/// 
+///
 ///
 import 'package:flutter/widgets.dart';
 
@@ -19,22 +19,91 @@ class WeatherIcons {
   WeatherIcons._();
 
   static const _kFontFam = 'WeatherIcons';
+  static const String _iconFontPackage = 'myclock';
 
-  static const IconData cloudSunRainSolid = IconData(0xe800, fontFamily: _kFontFam);
-  static const IconData cloudSunSolid = IconData(0xe801, fontFamily: _kFontFam);
-  static const IconData cloudRainSolid = IconData(0xe802, fontFamily: _kFontFam);
-  static const IconData cloudShowersHeavySolid = IconData(0xe803, fontFamily: _kFontFam);
-  static const IconData cloudSolid = IconData(0xe804, fontFamily: _kFontFam);
-  static const IconData cloudMoonRainSolid = IconData(0xe805, fontFamily: _kFontFam);
-  static const IconData cloudMoonSolid = IconData(0xe806, fontFamily: _kFontFam);
-  static const IconData cloudMeatballSolid = IconData(0xe807, fontFamily: _kFontFam);
-  static const IconData windSolid = IconData(0xe808, fontFamily: _kFontFam);
-  static const IconData boltSolid = IconData(0xe809, fontFamily: _kFontFam);
-  static const IconData sunSolid = IconData(0xe80a, fontFamily: _kFontFam);
-  static const IconData sun = IconData(0xe80b, fontFamily: _kFontFam);
-  static const IconData tintSlashSolid = IconData(0xe80c, fontFamily: _kFontFam);
-  static const IconData tintSolid = IconData(0xe80d, fontFamily: _kFontFam);
-  static const IconData smogSolid = IconData(0xe80e, fontFamily: _kFontFam);
-  static const IconData moonSolid = IconData(0xe80f, fontFamily: _kFontFam);
-  static const IconData moon = IconData(0xe810, fontFamily: _kFontFam);
+  static const IconData cloudSunRainSolid = IconData(
+    0xe800,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData cloudSunSolid = IconData(
+    0xe801,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData cloudRainSolid = IconData(
+    0xe802,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData cloudShowersHeavySolid = IconData(
+    0xe803,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData cloudSolid = IconData(
+    0xe804,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData cloudMoonRainSolid = IconData(
+    0xe805,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData cloudMoonSolid = IconData(
+    0xe806,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData cloudMeatballSolid = IconData(
+    0xe807,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData windSolid = IconData(
+    0xe808,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData boltSolid = IconData(
+    0xe809,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData sunSolid = IconData(
+    0xe80a,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData sun = IconData(
+    0xe80b,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData tintSlashSolid = IconData(
+    0xe80c,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData tintSolid = IconData(
+    0xe80d,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData smogSolid = IconData(
+    0xe80e,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData moonSolid = IconData(
+    0xe80f,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
+  static const IconData moon = IconData(
+    0xe810,
+    fontFamily: _kFontFam,
+    fontPackage: _iconFontPackage,
+  );
 }
